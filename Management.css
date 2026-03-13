@@ -205,7 +205,11 @@ car:hover {
 }
 
 
-
+@media(max-width:900px){
+  .car-list {
+    grid-template-columns: repeat(2,1fr);
+  }
+}
 
 
 @media(max-width:600px){
@@ -239,6 +243,10 @@ car:hover {
 
   .navbar.active .navbar-links {
     max-height: 300px;
+  }
+
+  .car-list {
+    grid-template-columns: 1fr;
   }
 
 }
