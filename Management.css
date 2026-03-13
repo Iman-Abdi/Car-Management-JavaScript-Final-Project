@@ -85,6 +85,23 @@ body {
   border-radius: 5px;
 }
 
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin: 40px 0;
+  color: #333;
+}
+
+h2 {
+  margin: 20px 0;
+  color: #ff4d00;
+}
+
 
 
 @media(max-width:600px){
