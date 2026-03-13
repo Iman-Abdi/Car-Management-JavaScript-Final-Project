@@ -235,6 +235,30 @@ body {
 }
 
 
+.Footer {
+  background: linear-gradient(135deg, #111, #333);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.Footer p {
+  margin-bottom: 15px;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 1.2rem;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #ff4d00;
+  transform: scale(1.2);
+}
+
+
 @media (max-width: 760px) {
   .toggle-button {
     display: flex;
