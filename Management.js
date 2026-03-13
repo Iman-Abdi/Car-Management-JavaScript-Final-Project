@@ -4,3 +4,6 @@ const navbar = document.querySelector('.navbar');
 toggleButton.addEventListener('click', () => {
     navbar.classList.toggle('active');
 });
+
+const form = document.getElementById("carForm");
+const carList = document.getElementById("carList");
