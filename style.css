@@ -179,6 +179,28 @@ body {
 
 
 
+.About {
+  padding: 70px 20px;
+  text-align: center;
+  background: white;
+}
+
+.About h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #ff4d00;
+}
+
+.About p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.8;
+}
+
+
+
 
 
 
