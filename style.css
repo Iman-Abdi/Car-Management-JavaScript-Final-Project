@@ -201,7 +201,38 @@ body {
 
 
 
+.Contact-Us {
+  padding: 70px 20px;
+  background: #f4f4f4;
+  text-align: center;
+}
 
+.Contact-Us h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #ff4d00;
+}
+
+.Contact-Us p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.Contact-Us ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.Contact-Us li {
+  margin: 10px 0;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.Contact-Us i {
+  color: #ff4d00;
+  margin-right: 8px;
+}
 
 
 @media (max-width: 760px) {
