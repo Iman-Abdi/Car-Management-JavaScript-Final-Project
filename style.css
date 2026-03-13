@@ -88,6 +88,51 @@ body {
 
 
 
+.Background {
+  height: 90vh;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("https://i.insider.com/550cbf03ecad04de2c7c008a?width=1200&format=jpeg")
+    no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+.Header-Text {
+  width: 600px;
+  color: white;
+  animation: fadeInUp 1s ease forwards;
+}
+
+.Header-Text h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.Header-Text p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.cta-btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #ff4d00;
+  color: white;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.cta-btn:hover {
+  background: #ff7f50;
+  transform: scale(1.05);
+}
+
+
+
+
 
 
 
