@@ -156,6 +156,56 @@ button:hover {
 }
 
 
+car:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.car img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.car-info {
+  padding: 15px;
+}
+
+.car-info h3 {
+  margin-bottom: 10px;
+}
+
+.price {
+  color: #ff4d00;
+  font-weight: bold;
+}
+
+.car-info button {
+  margin: 5px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.car-info button:first-of-type {
+  background: #0077b6;
+  color: white;
+}
+
+.car-info button:last-of-type {
+  background: #d00000;
+  color: white;
+}
+
+.car-info button:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+
+
+
 
 
 @media(max-width:600px){
