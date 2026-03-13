@@ -171,4 +171,19 @@ body {
     opacity: 1;
   }
 
+  .Header-Text {
+    width: 100%;
+    margin-top: 5rem;
+    text-align: center;
+  }
+
+  .Header-Text h1 {
+    font-size: 2rem;
+  }
+
+  .Background {
+    height: 70vh;
+    justify-content: center;
+  }
+
 }
