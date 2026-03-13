@@ -141,6 +141,22 @@ button:hover {
 }
 
 
+.car-list {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
+
+.car {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+
+
 
 @media(max-width:600px){
   .navbar {
