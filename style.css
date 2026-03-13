@@ -133,6 +133,52 @@ body {
 
 
 
+.Services {
+  padding: 70px 20px;
+  background: #f4f4f4;
+}
+
+.Services h2 {
+  text-align: center;
+  font-size: 2.3rem;
+  margin-bottom: 10px;
+}
+
+.Services-P {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.Service-List {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+}
+
+.Service-Item {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: 0.3s;
+}
+
+.Service-Item i {
+  color: #ff4d00;
+  margin-bottom: 15px;
+}
+
+.Service-Item:hover {
+  background: linear-gradient(135deg, #ff4d00, #ff7f50);
+  color: white;
+  transform: translateY(-10px);
+}
+
+
+
 
 
 
